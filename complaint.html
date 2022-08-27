@@ -144,104 +144,96 @@
         </div>
 
 
-     
 
-        <div class="container px-4 py-5" id="hanging-icons" style="overflow: auto;">
-            
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-                <div class="col d-flex align-items-start">
-                    
-                    <div>
-                        <h2>Apply for New Outpass</h2>
-                        
-                        <a href="#" class="btn btn-primary">
-                            Apply
-                        </a>
+        <div class="complaint-page" style="margin:auto; ">
+
+            <h2 style="margin-bottom:35px;">Raise Your complaint here</h2>
+
+            <form>
+
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="form-outline mb-4">
+                    <input type="text" id="form6Example3" class="form-control" / required>
+                    <label class="form-label" for="form6Example3">Complaint Title *</label>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col">
+                        <div class="form-outline">
+                            <input type="text" id="form6Example1" class="form-control" / required>
+                            <label class="form-label" for="form6Example1">Student Name *</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-outline">
+                            <input type="text" id="form6Example2" class="form-control" / required>
+                            <label class="form-label" for="form6Example2">Hostel Name *</label>
+                        </div>
                     </div>
                 </div>
-               
-               
-            </div>
-            <h2 class="pb-2 border-bottom">Current Outpass</h2>
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-                <div class="feature col" style="margin-bottom:0px;">
 
-                    <h2>Issued at</h2>
-                    <p style="font-size:25px;">25-10-2020 04:34:60</p>
-
-                </div>
-                <div class="feature col" style="margin-bottom:0px;">
-
-                    <h2>Valid Till</h2>
-                    <p style="font-size:25px;">25-10-2020 04:34:60</p>
-
-                </div>
-
-            </div>
-            <div class="container px-4 py-5" id="featured-3">
-                <h2 class="pb-2 border-bottom">Previous Outpass</h2>
-              
-                <table class="table">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Issued At</th>
-                            <th scope="col">Valid Till</th>
-
-                        </tr>
-                    </thead>
-                    <tbody style="overflow:auto;">
-                        <div class="overflow-auto">
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>25-10-2020 04:34:60</td>
-                            <td>25-10-2020 04:34:60</td>
-
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>25-10-2020 04:34:60</td>
-                            <td>25-10-2020 04:34:60</td>
-
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>25-10-2020 04:34:60</td>
-                            <td>25-10-2020 04:34:60</td>
-
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>25-10-2020 04:34:60</td>
-                            <td>25-10-2020 04:34:60</td>
-
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>25-10-2020 04:34:60</td>
-                            <td>25-10-2020 04:34:60</td>
-
-                        </tr>
+                <!-- Text input -->
+                <div class="row mb-4">
+                    <div class="col">
+                        <div class="form-outline">
+                            <input type="text" id="form6Example1" class="form-control" / required>
+                            <label class="form-label" for="form6Example1">Wing *</label>
+                        </div>
                     </div>
-                    </tbody>
-                </table>
-        
-            </div>
+                    <div class="col">
+                        <div class="form-outline">
+                            <input type="number" id="form6Example2" class="form-control" / required>
+                            <label class="form-label" for="form6Example2">Room Number *</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col">
+                        <div class="form-outline">
+                            <input type="number" id="form6Example1" class="form-control" / required>
+                            <label class="form-label" for="form6Example1">Phone Number *</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-outline">
+                            <input type="time" id="form6Example2" class="form-control" / required>
+                            <label class="form-label" for="form6Example2">Availability *</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Number input -->
+                <select class="form-select" aria-label="Default select example" style="margin-bottom:15px">
+                    <option selected>Choose Category</option>
+                    <option value="1">Cleanliness</option>
+                    <option value="2">Electricity</option>
+                    <option value="3">Plumbing</option>
+                    <option value="3">Lock Issues</option>
+                    <option value="3">Water Issues</option>
+                    <option value="3">Damage and Repair</option>
+                    <option value="3">Others</option>
+                  </select>
+
+                <!-- Message input -->
+                <div class="form-outline mb-4">
+                    <textarea class="form-control" id="form6Example7" rows="4" required></textarea>
+                    <label class="form-label" for="form6Example7">Describe your problem *</label>
+                </div>
+
+
+
+
+
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4">Raise Complaint</button>
+            </form>
         </div>
-
-      
-
-
-
-
-        <div class="b-example-divider"></div>
-
 
 
 
 
     </main>
-
 
 
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
